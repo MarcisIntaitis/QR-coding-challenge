@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    background: radial-gradient(circle at top right, #62e6db 0%, #243691 40%, #000000 100%);
+    overflow-y: hidden;
+    color: #0000006c;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+    .affirmation-window{
+        width: 90vw !important;
+    }
+}
+
+.affirmation-window{
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #ffffff30;
+    width: 50vw;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.affirmation-text{
+    padding-bottom: 50px;
+    font-size: 36px;
+    padding: 0, 20px, 0, 20px;
+}
